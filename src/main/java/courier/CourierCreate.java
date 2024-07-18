@@ -2,7 +2,7 @@ package courier;
 
 public class CourierCreate {
     public static Courier getCourier() {
-        return new Courier("Tars", "test", "Timur");
+        return new Courier("Tars", "12345", "Timur");
     }
 
     public static Courier getCourierWithLoginOnly() {
@@ -14,6 +14,6 @@ public class CourierCreate {
     }
 
     public static Courier getCourierWithSimilarLogin() {
-        return new Courier("Tars", "test@test", "Timur");
+        return new Courier("Tars", "12345", "Timur");
     }
 }

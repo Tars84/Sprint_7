@@ -8,6 +8,10 @@ public InputData(String login,String password) {
     this.login = login;
     this.password = password;
 }
+
+public static InputData from(Courier courier) {
+    return new InputData(courier.getLogin(),courier.getPassword());
+}
     public String getLogin() {
         return login;
     }
