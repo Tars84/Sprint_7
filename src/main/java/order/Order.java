@@ -25,7 +25,7 @@ public Order(String firstName, String lastName, String address, String metroStat
     this.comment = comment;
     this.color = color;
 }
-public Order() {}
+public Order(String firstName, String lastName, String address, String phone, String rentTime, String deliveryDate, String comment, List<String> scooterColor) {}
 
     public String getFirstName() {
         return firstName;

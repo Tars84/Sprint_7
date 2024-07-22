@@ -7,12 +7,12 @@ public class OrderCreation {
         return new Order(
                 "Timur",
                 "Gabdullin",
-                "Budennogo str h 11",
-                "Metro",
-                "+79875078207",
+                "Budennogo, 141 apt.",
                 "4",
-                "19.07.2024",
-                "No rush",
+                "+7 920 030 36 05",
+                "5",
+                "2024-07-25",
+                "no comment",
                 List.of("Black")
         );
     }
@@ -20,25 +20,24 @@ public class OrderCreation {
         return new Order(
                 "Timur",
                 "Gabdullin",
-                "Budennogo str h 11",
-                "Metro",
-                "+79875078207",
-                "4",
-                "19.07.2024",
-                "No rush",
+                "Budennogo, 141 apt.",
+                "Сокольники",
+                "+7 920 030 36 05",
+                "5",
+                "2024-07-25",
+                "no comment",
                 List.of("Black", "Grey")
                 );
     }
     public static Order getOrderWithoutColor() {
         return new Order(
-                "Timur",
+                "Тимур",
                 "Gabdullin",
-                "Budennogo str h 11",
-                "Metro",
-                "+79875078207",
                 "4",
-                "19.07.2024",
-                "No rush",
+                "+7 920 030 36 05",
+                "5",
+                "2024-07-25",
+                "no comment",
                 List.of()
         );
     }

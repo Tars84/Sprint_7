@@ -3,6 +3,7 @@ package courier;
 public class InputDataOnlyLogin {
     private String login;
     private String password;
+
     public InputDataOnlyLogin(String login,String password) {
         this.password = password;
         this.login = login;
